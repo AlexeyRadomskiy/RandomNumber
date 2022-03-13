@@ -39,6 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CA3432327DE08ED00A06801 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8F8DF27D901BF0073C191 /* AppDelegate.swift */,
+				6CD8F8E127D901BF0073C191 /* SceneDelegate.swift */,
+				6CD8F8ED27D901C00073C191 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CA3432427DE08F500A06801 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8F8E327D901BF0073C191 /* ViewController.swift */,
+				6CD8F8F327D909B90073C191 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CA3432527DE090100A06801 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8F8E527D901BF0073C191 /* Main.storyboard */,
+				6CD8F8EA27D901C00073C191 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CA3432627DE090A00A06801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8F8E827D901C00073C191 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6CD8F8D327D901BF0073C191 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +94,10 @@
 		6CD8F8DE27D901BF0073C191 /* RandomNumber */ = {
 			isa = PBXGroup;
 			children = (
-				6CD8F8DF27D901BF0073C191 /* AppDelegate.swift */,
-				6CD8F8E127D901BF0073C191 /* SceneDelegate.swift */,
-				6CD8F8E327D901BF0073C191 /* ViewController.swift */,
-				6CD8F8E527D901BF0073C191 /* Main.storyboard */,
-				6CD8F8F327D909B90073C191 /* SettingsViewController.swift */,
-				6CD8F8E827D901C00073C191 /* Assets.xcassets */,
-				6CD8F8EA27D901C00073C191 /* LaunchScreen.storyboard */,
-				6CD8F8ED27D901C00073C191 /* Info.plist */,
+				6CA3432427DE08F500A06801 /* ViewControllers */,
+				6CA3432527DE090100A06801 /* Storyboards */,
+				6CA3432627DE090A00A06801 /* Resources */,
+				6CA3432327DE08ED00A06801 /* App */,
 			);
 			path = RandomNumber;
 			sourceTree = "<group>";
@@ -295,7 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomNumber/Info.plist;
+				INFOPLIST_FILE = RandomNumber/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Random Number";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -305,7 +337,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.RandomNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -323,7 +355,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomNumber/Info.plist;
+				INFOPLIST_FILE = RandomNumber/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Random Number";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -333,7 +365,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.RandomNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
